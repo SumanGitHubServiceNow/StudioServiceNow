@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="My Custom App Table" max_length="40" name="x_597826_my_custom_my_custom_app_table" type="collection">
+        <element label="My Integer Field" max_length="40" name="my_integer_field" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="My String Field" max_length="40" name="my_string_field" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="125" name="short_description" type="string"/>
+    </element>
+</database>
